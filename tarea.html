@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta sobre película favorita</title>
+</head>
+<body>
+
+<script>
+ 
+    var nombre= prompt("¿Cuál es su nombre?");
+
+    var pelicula= prompt("¿Qué película te gusta?");
+
+    if (pelicula.toLowerCase() === "shrek") {
+      
+        document.write("<h2>¡Hola, " + nombre + "!</h2>");
+        document.write("<p> Qué bien que te guste Shrek!</p>");
+        document.write('<img src="https://lh5.googleusercontent.com/proxy/60BqCTAJsU5mfX1v9smTmHrWehrNKwYJ2N951Aajrs0FyS4V7EoDFIzwrO26KG2Q_hc0quJP8ugHDb4f83_9R6b-YrIfG1_puxx_e6gldZP3WHb5yXsyv-q4IIQoIw0_S_kZebr8neLBCni4x-yAbRVUeJM9icoovxZKyQaBOApFigGVfBpcPCzvXD1-x7zQaIKkvZ8K7L0_Srwe0VOAE7ij8FjZ5Rt6IPDYtKT8s5YxdDW6l9SWP15G2P1iNauvT4gBVfk7PA=w1920-h911">');
+    } else {
+      
+        document.write("<h2>¡Hola, " + nombre + "!</h2>");
+        document.write("<p>Tu película favorita no es Shrek.</p>");
+    }
+</script>
+
+</body>
+</html>
